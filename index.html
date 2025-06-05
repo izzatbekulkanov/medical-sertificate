@@ -40,10 +40,13 @@
         event.preventDefault();
         const code = document.getElementById('code').value;
         const errorMessage = document.getElementById('error-message');
-        
+    
         if (code === '4343') {
             errorMessage.style.display = 'none';
             window.location.href = '5db911d6df171f3d.html';
+        } else if (code === '4140') {
+            errorMessage.style.display = 'none';
+            window.location.href = '5db911d6df171f3drey.html';
         } else {
             errorMessage.textContent = 'Неверный код. Пожалуйста, попробуйте снова.';
             errorMessage.style.display = 'block';
